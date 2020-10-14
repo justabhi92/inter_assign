@@ -1,0 +1,260 @@
+/*Start Modal UI Style Sheet */
+
+.form-container {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.sub-menu {
+  width: 100%;
+  height: 2.2em !important;
+  font-size: 14px;
+  background: #f9f5f2;
+  color: #000000;
+  padding-left: 0.2em;
+  padding-right: 0.5em;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+.form-input-lag {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c5c5c5c5;
+  padding-left: 5px;
+  height: 2.2em;
+  width: 66em;
+  font-size: 14px;
+  background: #f3f9f2;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.sub-menu-fab {
+  width: 2em;
+  height: 2em;
+}
+
+.form-field-filter {
+  margin-top: 0.5em;
+  display: flex;
+  background: #323c63;
+  color: #ffffff;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding: 0.1em;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.search-lable {
+  font-size: 10px;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.search-input {
+  height: 1.5em;
+  width: 9vw;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  background: #f5f5f5;
+  color: #000000;
+  border-radius: 1em;
+  font-size: 10px;
+  padding: 2px;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+tr.mat-footer-row,
+tr.mat-row,
+tr.mat-header-row {
+  height: 20px !important;
+}
+
+.mat-cell {
+  font-size: 12px;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+/* // ::ng-deep .mat-paginator-container{
+//   height: 2.5em !important;
+//   min-height: 2.5em !important;
+// } */
+::ng-deep .cdk-overlay-pane {
+  max-width: 90% !important;
+  background-color: #1a1f33;
+}
+
+::ng-deep .row {
+  margin: 0em !important;
+}
+
+::ng-deep .mat-dialog-content {
+  margin: 0em !important;
+  padding: 0em !important;
+  max-height: 100% !important;
+}
+
+::ng-deep .mat-dialog-container {
+  margin: 0em !important;
+  padding: 0em !important;
+  overflow: auto;
+  height: 70vh;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+::ng-deep .mat-dialog-title {
+  margin: 0em;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+/*Start Modal UI Style Sheet */
+
+.sub-menu-modal {
+  width: 100%;
+  height: 2em !important;
+  font-size: 14px;
+  background: #323c63;
+  color: #ffffff;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-menu-lable-modal {
+  display: flex;
+  align-items: center;
+  height: 100% !important;
+  float: left;
+}
+
+::ng-deep .mat-mini-fab {
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 0em;
+  padding: 0em;
+  background: #ffffff !important;
+  color: #323c63 !important;
+}
+
+::ng-deep .mat-button-wrapper {
+  padding: 0px !important;
+}
+
+::ng-deep .modal-header {
+  padding: 0em !important;
+  font-size: 14px !important;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.form-field {
+  display: grid;
+  width: 13vw;
+  margin: 0.2em;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.form-field-password {
+  display: grid;
+  width: 11vw;
+  margin: 0.2em;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.form-field-other {
+  display: grid;
+  width: 40vw;
+  margin: 0.2em;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.form-label {
+  font-size: 12px;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.form-input {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c5c5c5c5;
+  padding-left: 5px;
+  height: 1.5em;
+  font-size: 12px;
+  background: #f3f9f2;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.form-label-error {
+  min-height: 14px;
+  height: 14px;
+  font-size: 10px;
+  color: red;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+.child-container {
+  width: 90vw;
+  padding-left: 5vw;
+}
+.mat-header-cell {
+  width: 15vw;
+}
+.password_view {
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+  margin-right: 7px;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica,Arial",
+    "sans-serif";
+}
+
+.mat-stroked-button {
+  line-height: 20px;
+  background-color: #f2f3f9;
+}
+
+.mat-stroked-button:hover {
+  background: #323c63 !important;
+  color: #ffffff !important;
+  /* // border: none; */
+}
+
+.mat-dialog-actions {
+  float: right;
+  min-height: 30px;
+  padding: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}

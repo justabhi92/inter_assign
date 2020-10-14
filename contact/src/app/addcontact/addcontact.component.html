@@ -1,0 +1,29 @@
+<div>
+
+    <div class="adddiv">
+        <p style="font-size: 2vh;">addcontact Below</p>
+
+        <form #searchForm="ngForm">
+            <label for="exampleInputEmail1">Name</label>
+            <input  ngModel matInput name="FName" type="text"class="form-control" id='Name'>
+
+            <label for="exampleInputEmail1">Mobile</label>
+            <input type="number" ngModel matInput name="Mobile" [maxLength]="10" class="form-control" id='Mobile'>
+
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email"  ngModel matInput name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Company</label>
+          <input type="text"ngModel matInput name="Company" class="form-control" id="Company" placeholder="Company">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Date of birth</label>
+            <input type="date"ngModel matInput name="Date" class="form-control" id="Date" placeholder="Date">
+          </div>
+
+        <button type="submit" (click)='submit(searchForm.value);(searchForm.reset)' class="btn btn-primary">Add Contact</button>
+      </form>
+    </div>
+
+</div>
