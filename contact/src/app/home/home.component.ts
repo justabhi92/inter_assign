@@ -78,10 +78,19 @@ export class HomeComponent implements OnInit {
       this.dataSource.sort = this.sort;
     });
   }
-  getletestuser() {}
+
   openDialog() {}
+
   openDeleteDialog(row) {
     console.log(row);
+    if (confirm('Do you really want to Delete Contact ?')) {
+      this.commonservice.deleteuser(row).subscribe(() => {
+        alert('You have deleted contact successfully !');
+        this.ngOnInit();
+      });
+    } else {
+      alert('Great You can still Have Contact!');
+    }
   }
   openEditDialog(row) {
     // console.log('row', row);

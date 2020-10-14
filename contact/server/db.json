@@ -1,60 +1,28 @@
 {
   "users": [
     {
-      "FName": "abhinowun",
-      "Mobile": 55655,
-      "Email": "",
-      "Company": "",
-      "Date": "",
-      "id": 1
-    },
-    {
-      "FName": "abhinowun",
-      "Mobile": 556555,
-      "Email": "asdsads@gmsaik",
-      "Company": "indaia",
-      "Date": "2020-12-31",
-      "id": 2
-    },
-    {
       "FName": "abhi",
-      "Mobile": 123456,
-      "Email": "abhi@gmail",
-      "Company": "123in",
-      "Date": "2020-12-31",
-      "id": 3
-    },
-    {
-      "FName": "abhitest",
-      "Mobile": 456565656565,
+      "Mobile": "6565656565",
       "Email": "abhi@gmail.com",
       "Company": "abc",
       "Date": "2020-12-31",
-      "id": 4
-    },
-    {
-      "FName": "abhinowun",
-      "Mobile": 1234545,
-      "Email": "asdsads@gmsaik",
-      "Company": "indaia",
-      "Date": "2020-12-31",
-      "id": 5
-    },
-    {
-      "FName": "abhijeet",
-      "Mobile": 45455454545,
-      "Email": "asdsads@gmsaik",
-      "Company": "indaia",
-      "Date": "2020-12-31",
-      "id": 6
+      "id": 8
     },
     {
       "FName": "abhitest",
-      "Mobile": 21212121211,
+      "Mobile": 9556565665,
       "Email": "asdsads@gmsaik",
       "Company": "indaia",
       "Date": "2020-12-31",
-      "id": 7
+      "id": 9
+    },
+    {
+      "FName": "abhijeet",
+      "Mobile": 9898989889,
+      "Email": "asdsads@gmsaik",
+      "Company": "indaia",
+      "Date": "2020-12-31",
+      "id": 10
     }
   ]
 }

@@ -1,14 +1,14 @@
 <div>
 
     <div class="adddiv">
-        <p style="font-size: 2vh;">addcontact Below</p>
+        <p style="font-size: 4vh;text-align: center;">Add Contact Below</p>
 
         <form #searchForm="ngForm">
             <label for="exampleInputEmail1">Name</label>
             <input  ngModel matInput name="FName" type="text"class="form-control" id='Name'>
 
             <label for="exampleInputEmail1">Mobile</label>
-            <input type="number" ngModel matInput name="Mobile" [maxLength]="10" class="form-control" id='Mobile'>
+            <input type="number" onKeyPress="if(this.value.length==10) return false;" ngModel matInput name="Mobile" [maxLength]="10" class="form-control" id='Mobile'>
 
           <label for="exampleInputEmail1">Email address</label>
           <input type="email"  ngModel matInput name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
